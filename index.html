@@ -1,0 +1,359 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="shortcut icon" type="image/x-icon" href="img/logo.png" />
+    <title>Single Page Bootstrap Project</title>
+	<link rel="stylesheet" href="css/navbar-fixed.css">
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/style.css">
+    
+</head>
+<body>
+<!--Navbar-->
+	
+	<nav class="navbar navbar-light navbar-expand-md fixed-top">
+		<div class="container">
+			<a href="#home" class="navbar-brand">
+				<img src="img/logo.png" class="img-fluid" width="50" height="50" alt="J" />
+				<h2 class="d-inline align-middle">Joy's Company</h2>
+			</a>
+			<button class="navbar-toggler navbar-toggler-right"><span class="navbar-toggler-icon" data-toggle="collapse" data-target="#navbar"></span></button>
+			<div class="collapse navbar-collapse" id="navbar">
+				<ul class="navbar-nav ml-auto">
+					<li class="nav-item">
+						<a href="#home" class="nav-link text-success ">Home</a>
+					</li>
+					<li class="nav-item">
+						<a href="#about" class="nav-link text-info">About</a>
+					</li>
+					<li class="nav-item">
+						<a href="#authors" class="nav-link text-warning">Authors</a>
+					</li>
+					<li class="nav-item">
+						<a href="#contract" class="nav-link text-danger">Contract</a>
+					</li>
+				</ul>
+			</div>
+		</div>
+	</nav>
+
+<!--Home-->
+	<section id="home" style=" no-repeat center; background-size:cover; min-height:666px; position:relative;">
+		<div class="overlay" style="background:#4e4e4e75; min-height:666px; position:absolute; top:0; left:0; width:100%; height:100%">
+			<div class="container">
+				<div class="row">
+					<div class="col-lg-6 col-md-12 text-light text-center">
+						<h1 class="display-2 mt-5 pt-5">Do What You Want...</h1>
+						<p>In publishing and graphic design, Lorem ipsum is a placeholder text.</p>
+						<a href="#" class="btn btn-outline-light btn-lg"><i class="fa fa-arrow-right"></i>Read More</a>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	
+<!--Subscribe-->
+
+	<section class="bg-dark py-5">
+		<div class="container">
+			<form action="" class="row">
+				<div class="col-lg-4">
+					<div class="form-group mb-0">
+						<input type="text" placeholder="Name" class="form-control form-control-lg"/>
+					</div>
+				</div>
+				<div class="col-lg-4">
+					<div class="form-group my-3 my-md-3 my-lg-0 ">
+						<input type="email" placeholder="Email" class="form-control form-control-lg"/>
+					</div>
+				</div>
+				<div class="col-lg-4">
+					<button class="btn btn-danger btn-lg btn-block">
+						<i class="fa fa-envelope-open-o"></i>
+						Subscribe
+					</button>
+				</div>
+			</form>
+		</div>
+	</section>
+	
+<!--Box-->
+
+	<section id="box" class="py-5 text-center">
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-3 ">
+					<div class="card border-info">
+						<div class="card-body box1">
+							<h3 class="text-color">Be Better</h3>
+							<p class="lead"> In publishing and graphic design, Lorem ipsum is a placeholder text.In publishing and graphic design.</p>
+						</div>
+					</div>
+				</div>
+				<div class="col-lg-3 mt-3 mt-md-3 mt-lg-0">
+					<div class="card border-info bg-info text-light">
+						<div class="card-body box2">
+							<h3 class="text-color">Be Smarter</h3>
+							<p class="lead"> In publishing and graphic design, Lorem ipsum is a placeholder text.In publishing and graphic design.</p>
+						</div>
+					</div>
+				</div>
+				<div class="col-lg-3 my-3 my-md-3 my-lg-0">
+					<div class="card border-info">
+						<div class="card-body box1">
+							<h3 class="text-color">Be Faster</h3>
+							<p class="lead">In publishing and graphic design, Lorem ipsum is a placeholder text.In publishing and graphic design.</p>
+						</div>
+					</div>
+				</div>
+				<div class="col-lg-3">
+					<div class="card border-info bg-info text-light">
+						<div class="card-body box2">
+							<h3 class="text-color text">Be Stronger</h3>
+							<p class="lead"> In publishing and graphic design, Lorem ipsum is a placeholder text.In publishing and graphic design.</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	
+<!--About-->
+
+
+	<section id="about" class="bg-light py-5 text-center mb-5">
+		<div class="container">
+			<div class="row">
+				<div class="col-12">
+					<div class="book">
+						<h2 class="display-4 text-info">WHY YOU VISIT</h2>
+						<p class="lead pt-4 pb-3">In publishing and graphic design, Lorem ipsum is a placeholder text. In publishing and graphic design, Lorem ipsum is a placeholder text.In publishing .</p>
+					</div>
+<!--ACCORDION-->
+					<div id="accordion" role="tablist">
+						<div class="card">
+							<div class="card-header" role="tabindex">
+								<h5 class="mb-0">
+									<div data-toggle="collapse" href="#collapse1">
+										<i class="fa fa-arrow-circle-down">Get Inspired</i>
+									</div>
+								</h5>
+							</div>
+							<div id="collapse1" class="collapse show" data-parent="#accordion">
+								<div class="card-body">
+									<p class="lead">In publishing and graphic design, Lorem ipsum is a placeholder text. In publishing and graphic design, Lorem ipsum is a placeholder text.In publishing.In publishing and graphic design, Lorem ipsum is a placeholder text. In publishing and graphic design. Publishing and graphic design.</p>
+								</div>
+							</div>
+						</div>
+						<div class="card">
+							<div class="card-header" role="tabindex">
+								<h5 class="mb-0">
+									<div data-toggle="collapse" href="#collapse2">
+										<i class="fa fa-arrow-circle-down">Gain The Knowledge</i>
+									</div>
+								</h5>
+							</div>
+							<div id="collapse2" class="collapse" data-parent="#accordion">
+								<div class="card-body">
+									<p class="lead">In publishing and graphic design, Lorem ipsum is a placeholder text. In publishing and graphic design, Lorem ipsum is a placeholder text.In publishing.In publishing and graphic design, Lorem ipsum is a placeholder text. In publishing and graphic design. In publishing and graphic design .</p>
+								</div>
+							</div>
+						</div>
+						<div class="card">
+							<div class="card-header" role="tabindex">
+								<h5 class="mb-0">
+									<div data-toggle="collapse" href="#collapse3">
+										<i class="fa fa-arrow-circle-down">Open You Mind</i>
+									</div>
+								</h5>
+							</div>
+							<div id="collapse3" class="collapse" data-parent="#accordion">
+								<div class="card-body">
+									<p class="lead">In publishing and graphic design, Lorem ipsum is a placeholder text. In publishing and graphic design, Lorem ipsum is a placeholder text.In publishing.In publishing and graphic design, Lorem ipsum is a placeholder text. In publishing and graphic design. In publishing and graphic design.</p>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	
+<!--Authors-->
+	<section id="authors" class="text-center py-5">
+		<div class="container">
+			<div class="row">
+				<div class="col-12 pb-5">
+					<div class="authors mb-5">
+							<h2 class="display-4 text-info">WHY YOU VISIT</h2>
+							<p class="lead pt-4 pb-3">In publishing and graphic design, Lorem ipsum is a placeholder text. In publishing and graphic design, Lorem ipsum is a placeholder text.In publishing .</p>
+					</div>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-lg-3 col-md-6 col-sm-12">
+					<div class="card">
+						<div class="card-body">
+							<img src="img/person1.jpg" alt="Harmini" class="img-fluid rounded-circle w-50 mb-3"/>
+							<h3>Susan Williams</h3>
+							<h5>Lead Writer</h5>
+							<p class="lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quaerat dolores earum numquam vel tempora, ut.</p>
+							<div class="d-flex flex-row justify-content-center">
+								<div class="p-4">
+									<a href="#"><i class="fa fa-facebook"></i></a>
+								</div>
+								<div class="p-4">
+									<a href="#"><i class="fa fa-twitter"></i></a>
+								</div>
+								<div class="p-4">
+									<a href="#"><i class="fa fa-linkedin"></i></a>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="col-lg-3 col-md-6 col-sm-12">
+					<div class="card">
+						<div class="card-body">
+							<img src="img/person2.jpg" alt="Harmini" class="img-fluid rounded-circle w-50 mb-3"/>
+							<h3>Susan Williams</h3>
+							<h5>Lead Writer</h5>
+							<p class="lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quaerat dolores earum numquam vel tempora, ut.</p>
+							<div class="d-flex flex-row justify-content-center">
+								<div class="p-4">
+									<a href="#"><i class="fa fa-facebook"></i></a>
+								</div>
+								<div class="p-4">
+									<a href="#"><i class="fa fa-twitter"></i></a>
+								</div>
+								<div class="p-4">
+									<a href="#"><i class="fa fa-linkedin"></i></a>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="col-lg-3 col-md-6 col-sm-12">
+					<div class="card">
+						<div class="card-body">
+							<img src="img/person3.jpg" alt="Harmini" class="img-fluid rounded-circle w-50 mb-3"/>
+							<h3>Susan Williams</h3>
+							<h5>Lead Writer</h5>
+							<p class="lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quaerat dolores earum numquam vel tempora, ut.</p>
+							<div class="d-flex flex-row justify-content-center">
+								<div class="p-4">
+									<a href="#"><i class="fa fa-facebook"></i></a>
+								</div>
+								<div class="p-4">
+									<a href="#"><i class="fa fa-twitter"></i></a>
+								</div>
+								<div class="p-4">
+									<a href="#"><i class="fa fa-linkedin"></i></a>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="col-lg-3 col-md-6 col-sm-12">
+					<div class="card">
+						<div class="card-body">
+							<img src="img/person4.jpg" alt="Harmini" class="img-fluid rounded-circle w-50 mb-3"/>
+							<h3>Susan Williams</h3>
+							<h5>Lead Writer</h5>
+							<p class="lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quaerat dolores earum numquam vel tempora, ut.</p>
+							<div class="d-flex flex-row justify-content-center">
+								<div class="p-4">
+									<a href="#"><i class="fa fa-facebook"></i></a>
+								</div>
+								<div class="p-4">
+									<a href="#"><i class="fa fa-twitter"></i></a>
+								</div>
+								<div class="p-4">
+									<a href="#"><i class="fa fa-linkedin"></i></a>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	
+	
+<!--Contract-->
+	<section id="contract" class="py-4 bg-light">
+	<div class="container">
+			<div class="row">
+				<div class="col-md-9">
+					<div class="info-contract">
+						<h2 class="display-4 text-info">Get In Touch</h2>
+						<p class="lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quaerat dolores earum numquam .</p>
+					</div>
+					<form action="https://formspree.io/towkerahmmed2003@gmail.com"
+							method="POST">
+						<div class="form-group">
+							<div class="input-group input-group-lg">
+								<div class="input-group-prepend">
+									<span class="input-group-text">
+										<i class="fa fa-user"></i>
+									</span>
+								</div>
+								<input type="text" placeholder="Name" class="form-control form-control-lg" name="Name"/>
+							</div>
+						</div>
+						<div class="form-group">
+						<div class="input-group input-group-lg">
+							<div class="input-group-prepend">
+								<span class="input-group-text">
+									<i class="fa fa-envelope"></i>
+								</span>
+							</div>
+							<input type="email" placeholder="Email" class="form-control form-control-lg" class="Email"/>
+						</div>
+						</div>
+						<div class="form-group">
+							<div class="input-group input-group-lg">
+								<div class="input-group-prepend">
+									<span class="input-group-text">
+										<i class="fa fa-pencil"></i>
+									</span>
+								</div>
+								<textarea name="message" rows="5" class="form-control form-control-lg" name="Comment"></textarea>
+							</div>
+						</div>
+						<div class="form-group">
+							<input type="submit" class="btn btn-info btn-lg btn-block" value="Submit"/>
+						</div>
+					</form>
+				</div>
+				<div class="col align-self-center">
+					<img src="img/logo.png" class="img-fluid rounded-circle ml-5 bg-info d-none d-lg-block" width="150" height="150" alt="J" />
+				</div>
+			</div>
+		</div>
+	</section>
+<!--Footer-->
+	<footer id="footer-main" class="py-5 bg-info text-center">
+		<div class="container">
+			<div class="row">
+				<div class="col-12">
+					<p>Copyright &copy; 2020</p>
+					<img src="img/logo.png" class="align-self-center" width="50" height="50" alt="J" />
+					<p>Designed By: <a class="ml-1 text-light" href="https://www.facebook.com/profile.php?id=100024901024152" target="_blank" >Towker Ahmmed Joy</a></p>
+				</div>
+			</div>
+		</div>
+	</footer>
+	
+    <!-- JS FILES -->
+    <script src="js/jquery.slim.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+	<script src="js/navbar-fixed.js"></script>
+
+</body>
+</html>

@@ -1,0 +1,80 @@
+$primary:#3292a6;
+
+body{
+	margin-top:90px;
+}
+.navbar{
+	box-shadow:2px 2px 5px $primary;
+	background:#fff;
+	opacity:.9;
+	.nav-item{
+		font-size:1.4rem;
+		padding-right:20px;
+		
+	}
+	.nav-item:last-child{
+		padding-right :0; 
+	}
+}
+#home{
+	background-image: url("../img/home.jpg");
+}
+
+.box1{
+	.text-color{
+	color:#007bff;
+	}
+}
+
+
+.box1:hover{
+	.text-color{
+	color:#fff;
+	transition:0.5s;
+	}
+}
+
+.box1:hover{
+	background:#17a2b8;
+	color:#fff;
+	transition:0.5s;
+}
+
+.box2:hover{
+	background:#fff;
+	color:#333;
+	transition:0.5s;
+	
+}
+
+.box2:hover{
+	.text-color{
+	color:#17a2b8;
+	transition:0.5s;
+	}
+}
+#authors{
+	img{
+		margin-top:-60px;
+	}
+.card:hover{
+	background:#17a2b8;
+	color:#fff;
+	transition:0.5s;
+.fa{
+	color:#fff;
+}
+}
+.fa{
+	font-size:25px;
+}
+}
+
+
+@media(max-width:576px){
+	#home{
+		h1{
+			font-size:4rem;
+		}
+	}
+}
